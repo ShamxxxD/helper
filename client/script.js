@@ -77,7 +77,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv)
 
   // Fetch API 
-  const response = await fetch('https://helper-bms-global.onrender.com/', {
+  const response = await fetch('https://helper-bms-global.onrender.com', {
     method: 'POST',
     headers: {
       'Content-type': 'application/json'
